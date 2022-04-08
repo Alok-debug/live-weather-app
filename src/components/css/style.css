@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #f3f2ef;
+    background: #74992e;;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,10 +99,11 @@ html {
 }
 
 .location {
-    margin-top: -5.5rem;
+    
     text-align: center;
     font-weight: 800;
     font-size: 5rem;
+    color:white;
     text-transform: capitalize;
 }
 
@@ -129,17 +130,19 @@ html {
 }
 
 .temp {
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     text-align: center;
     font-size: 3rem;
+    font-style: normal;
+    color: ;
 }
 
 .tempmin_max {
     text-align: center;
     margin-top: 0.3rem;
-    font-weight: 300;
+    font-weight: 800;
     font-size: 1.2rem;
-    color: #57606f;
+    color: hsl(50, 33%, 25%);
 }
 
 #weathercon {
@@ -209,11 +212,13 @@ body > span {
 
 .inputField {
     width: 50%;
+    margin-top: 3rem;
     margin: auto;
-    border-radius: 5rem;
+    border-radius: 2rem;
     padding: 1rem 1rem;
     outline: none;
     font-size: 1.5rem;
+   
 }
 
 .errorMsg {

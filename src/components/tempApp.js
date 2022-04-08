@@ -33,8 +33,8 @@ const TempApp = () => {
                 {!cityData ? (<p>No Data Found</p>) :(
                     <div>
                         <div className="info">
-                        <h2 className="location"> </h2>
-                        <i className="fa-solid fa-street-view"></i>{search}
+                        <i className="fa-solid fa-street-view"></i>
+                        <h2 className="location">{search} </h2>
                         <h1 className="temp"> {cityData.temp}°C</h1>
                         <h3 className="tempmin_max"> Min:{cityData.temp_min}°C || Max:{cityData.temp_max}°C </h3>
                         </div>
