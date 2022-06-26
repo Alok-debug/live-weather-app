@@ -134,7 +134,7 @@ html {
     text-align: center;
     font-size: 3rem;
     font-style: normal;
-    color: ;
+    color: darkblue;
 }
 
 .tempmin_max {
@@ -211,14 +211,14 @@ body > span {
 }
 
 .inputField {
-    width: 50%;
-    margin-top: 3rem;
-    margin: auto;
-    border-radius: 2rem;
-    padding: 1rem 1rem;
-    outline: none;
-    font-size: 1.5rem;
-   
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 1.1rem;
+    padding: 0.2rem 1rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    background-color: rgb(59, 219, 45);
+    color: red;
 }
 
 .errorMsg {
