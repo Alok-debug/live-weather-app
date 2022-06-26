@@ -11,7 +11,7 @@ const TempApp = () => {
             const url= `https://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=44bc8edd985b8f3252e0458a7734b1db`
             const response = await fetch(url);
             const resJson = await response.json();
-            //console.log(resJson);
+            //console.log(resJson.main);
             setCityData(resJson.main);}
         fetchApi();
     },[search])
